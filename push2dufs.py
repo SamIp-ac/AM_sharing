@@ -1,3 +1,4 @@
+import requests
 '''curl https://dufs.budgetapp.works/ -F file=@temp_0000.wav'''
 
 
