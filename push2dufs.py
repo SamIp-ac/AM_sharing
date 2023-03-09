@@ -1,7 +1,7 @@
-'''curl https://dufs.budgetapp.works/Test_pdf/ -F file=@temp_0000.wav'''
+'''curl https://dufs.budgetapp.works/ -F file=@temp_0000.wav'''
 
 
-url_ = 'https://'
+url_ = 'https://dufs.budgetapp.works/'
     # Open the file and read its contents
     with open('temp_0000.wav', 'rb') as f:
         file_content = f.read()
