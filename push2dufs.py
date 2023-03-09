@@ -17,3 +17,8 @@ url_ = 'https://'
         print('File uploaded successfully')
     else:
         print(f'Error uploading file: {response.status_code}')
+
+
+'''files = {'file': open(autospeech_filename, 'rb')}
+    headers = {'content-type': 'application/x-www-form-urlencoded'}
+    r = requests.post(url, files=files, headers=headers)'''
