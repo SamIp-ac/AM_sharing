@@ -3,7 +3,7 @@
 
 url_ = 'https://'
     # Open the file and read its contents
-    with open(temp_0000.wav, 'rb') as f:
+    with open('temp_0000.wav', 'rb') as f:
         file_content = f.read()
 
     # Define the data to be uploaded
